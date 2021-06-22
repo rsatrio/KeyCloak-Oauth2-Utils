@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+ <modelVersion>4.0.0</modelVersion>
+ <groupId>com.rizky.keycloak.oauth</groupId>
+ <artifactId>Oauth2-Utils</artifactId>
+ <version>0.9.0</version>
+ <name>KeyCloak-Oauth2-Utils</name>
+
+ <dependencies>
+  <dependency>
+   <groupId>com.github.scribejava</groupId>
+   <artifactId>scribejava-core</artifactId>
+   <version>8.1.0</version>
+  </dependency>
+
+  <dependency>
+   <groupId>io.fusionauth</groupId>
+   <artifactId>fusionauth-jwt</artifactId>
+   <version>4.0.1</version>
+  </dependency>
+
+  <dependency>
+   <groupId>com.konghq</groupId>
+   <artifactId>unirest-java</artifactId>
+   <version>3.11.11</version>
+  </dependency>
+
+  <dependency>
+   <groupId>ch.qos.logback</groupId>
+   <artifactId>logback-classic</artifactId>
+   <version>1.2.3</version>
+  </dependency>
+
+ </dependencies>
+</project>
